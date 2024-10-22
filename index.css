@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px; */
+  height: 100vh;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+#display {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+/* Button Style */
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+ 
+/* Button Style on Hover */
+
+button:hover{
+    background-color: #fd7e14 ;
+}
